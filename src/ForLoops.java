@@ -7,14 +7,14 @@ public class ForLoops {
         //enter a multiple of 7
         Scanner s = new Scanner(System.in);
 
-//        System.out.println("enter a number");
-//        int uNum = s.nextInt();
-//        //run the loop when uNum is NOT a multiple
-//        while ( uNum % 7  != 0 ) {
-//            System.out.println("enter a number");
-//            uNum = s.nextInt();
-//        }
-//        System.out.println(uNum + " is a multiple of 7");
+        System.out.println("enter a number");
+        int uNum = s.nextInt();
+        //run the loop when uNum is NOT a multiple
+        while ( uNum % 7  != 0 ) {
+            System.out.println("enter a number");
+            uNum = s.nextInt();
+        }
+        System.out.println(uNum + " is a multiple of 7");
 
         //while loop - condition-based - may or may not have a predetermined
         //quantity of iterations to run
@@ -71,28 +71,28 @@ public class ForLoops {
         //the sum of numbers
 
         //declare a sum variable before loop
-//        int sum = 0;
-//        for (int i = 0; i < 3; i++) {
-//            System.out.println("enter a number");
-//            int num = s.nextInt();
-//            sum = sum + num;
-//            //same as sum += num
-//        }
-//        System.out.println("sum is " + sum);
+        int sum = 0;
+        for (int i = 0; i < 3; i++) {
+            System.out.println("enter a number");
+            int num = s.nextInt();
+            sum = sum + num;
+            //same as sum += num
+        }
+        System.out.println("sum is " + sum);
 
         //ask the user for what num they want multiples of and how many
         //multiples to print
         //ex: 3 then 5
         //out: 3 6 9 12 15
-//        System.out.println("what do you want multiples of?");
-//        int mult = s.nextInt();
-//        System.out.println("how many multiples?");
-//        int quantity = s.nextInt();
-//
-//        //times to iterate depends on quantity
-//        for (int i = 0; i < quantity; i++) {
-//            System.out.println(mult * (i+1));
-//        }
+        System.out.println("what do you want multiples of?");
+        int mult = s.nextInt();
+        System.out.println("how many multiples?");
+        int quantity = s.nextInt();
+
+        //times to iterate depends on quantity
+        for (int i = 0; i < quantity; i++) {
+            System.out.println(mult * (i+1));
+        }
 
         //prompt the user for a number
         //output whether the number is prime or not
